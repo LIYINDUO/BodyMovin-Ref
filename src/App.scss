@@ -1,5 +1,21 @@
 .App {
-  text-align: center;
+     text-align: center;
+    
+    &-header {
+    
+      background-color: #E8E2D4;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+    }
+    
+    &-link {
+      color: #61dafb;
+    }
 }
 
 .Animation-logo {
@@ -12,28 +28,12 @@
 
 .Active {
   height: 400px;
-  width:400px;
+  width: 400px;
   opacity: 1;
   left: 50%;
   top: 50%;
   -webkit-animation: App-logo-spin infinite 20s linear;
           animation: App-logo-spin infinite 20s linear;
-}
-
-.App-header {
-
-  background-color: #E8E2D4;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @-webkit-keyframes App-logo-spin {
